@@ -9,9 +9,10 @@ import SEO from "../components/seo"
 
 const sezione = () => ( <
     Layout >
-    <
-    SEO title = "sezione" / >
+    <SEO title = "sezione" / >
 
     <h1>Titolo della sezione</h1>
     </Layout>
 )
+
+export default sezione
