@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 gsap.fromTo(".immagine", { // selector text, Array, or object
   x: 0,
   opacity: 0,
-  duration: 2,
+  duration: 2
 }, {x: 100, opacity: 1});
 
 const sezione = () => ( <
