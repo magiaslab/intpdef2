@@ -1,15 +1,22 @@
 import React from "react"
-
+import { gsap } from 'gsap';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+gsap.fromTo(".immagine", { // selector text, Array, or object
+  x: 0,
+  opacity: 0,
+  duration: 2,
+}, {x: 100, opacity: 1});
+
 const sezione = () => ( <
     Layout >
+    
     <SEO title = "sezione" / >
 
     <h1>Titolo della sezione</h1>
-    <div>
+    <div className="immagine">
     <svg width="800" height="600" viewBox="0 0 1174 1052" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="x34">
 <g id="Plant 3">
@@ -586,6 +593,9 @@ const sezione = () => ( <
 
     </div>
     </Layout>
+    
 )
+
+
 
 export default sezione
