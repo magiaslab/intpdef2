@@ -29,7 +29,7 @@ const IndexPage = () => ( <
   <
   Link to = "/using-typescript/" > Go to "Using TypeScript" < /Link>
   <Link to ="/sezione"> Vai alla sezione< /Link>
-  /Layout>
+  </Layout>
 )
 
 export default IndexPage
