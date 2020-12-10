@@ -9,7 +9,7 @@ const Header = ({
 }) => ( <
   header style = {
     {
-      background: `black`,
+      background: `white`,
       marginBottom: `1.45rem`,
     }
   } >
@@ -31,7 +31,7 @@ const Header = ({
   Link to = "/"
   style = {
     {
-      color: `white`,
+      color: `black`,
       textDecoration: `none`,
     }
   } > {

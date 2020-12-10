@@ -10,7 +10,7 @@ const sezione = () => ( <
 
     <h1>Titolo della sezione</h1>
     <div>
-    <svg width="1174" height="1052" viewBox="0 0 1174 1052" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="800" height="600" viewBox="0 0 1174 1052" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="x34">
 <g id="Plant 3">
 <g id="Group">
